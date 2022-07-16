@@ -123,7 +123,7 @@ EMI_IMG = "https://telegra.ph/file/a589fe0ca2b883b7a3dc3.jpg"
 DONATE_STRING = """Hey, glad to hear you want to donate!
  You can support the project by contacting @ybgskr_ex \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us developer the Bagaskara Robot at ."""
+ Those who cannot provide monetary support are welcome to help us developer the Erna X Bagaskara Robot at ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Bagaskara robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm Erna X Bagaskara robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -373,15 +373,15 @@ def Skyzu_about_callback(update, context):
     query = update.callback_query
     if query.data == "Skyzu_":
         query.message.edit_text(
-            text="๏ I'm *Bagaskara Robot*, a wibu group management robot and Music player built to help you manage and playing music in your group easily."
+            text="๏ I'm *Erna X Bagaskara Robot*, a wibu group management robot and Music player built to help you manage and playing music in your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Bagaskara's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for BagaskaraRobot.",
+            "\n\n_Erna X Bagaskara's licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for Erna X Bagaskara Robot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -433,7 +433,7 @@ def Skyzu_about_callback(update, context):
     elif query.data == "Skyzu_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, BagaskaraRobot now ready to manage your group."
+            "\nCongragulations, Erna X Bagaskara Robot now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -460,8 +460,8 @@ def Skyzu_about_callback(update, context):
         )
     elif query.data == "Skyzu_support":
         query.message.edit_text(
-            text="*๏ Bagaskara support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Bagaskara Robot.",
+            text="*๏ Erna X Bagaskara support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Erna X Bagaskara Robot.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -479,13 +479,13 @@ def Skyzu_about_callback(update, context):
 
     elif query.data == "Skyzu_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credit for Bagaskara Robot</b>\n"
-            f"\nHere Developers Making The Bagaskara Robot",
+            text=f"<b>๏ Credit for Erna X Bagaskara Robot</b>\n"
+            f"\nHere Developers Making The Erna X Bagaskara Robot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ʙᴀɢᴀsᴋᴀʀᴀ", url="t.me/ybgskr_ex"),
+                    InlineKeyboardButton(text="ʙᴀɢᴀsᴋᴀʀᴀ", url="t.me/ybgskr"),
                     InlineKeyboardButton(text="ʏʙɢsᴋʀ", url="t.me/ybgskr12"),
                  ],
                  [
@@ -807,7 +807,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Bagaskara Robot Started!**
+                f"""**Erna X Bagaskara Robot Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
