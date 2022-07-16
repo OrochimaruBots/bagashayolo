@@ -9,17 +9,17 @@ from BagaskaraRobot.events import register
 from BagaskaraRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/63267910585608a6302b0.jpg"
+PHOTO = "https://telegra.ph/file/a589fe0ca2b883b7a3dc3.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hallo Djancok!! [{event.sender.first_name}](tg://user?id={event.sender.id}), Gua ʙᴀɢᴀsᴋᴀʀᴀ ʀᴏʙᴏᴛ.** \n\n"
+  TEXT = f"**Hello guys!! [{event.sender.first_name}](tg://user?id={event.sender.id}), Gua ʙᴀɢᴀsᴋᴀʀᴀ ʀᴏʙᴏᴛ.** \n\n"
   TEXT += "🔰 **Via aktif sekarang** \n\n"
-  TEXT += f"🔰 **Tuhan gua : [ʙᴧɢᴧsҡᴧʀᴧ](https://t.me/ybgskr)** \n\n"
+  TEXT += f"🔰 **My Master : [Erna X Bagaskara](https://t.me/ybgskr)** \n\n"
   TEXT += f"🔰 **Library Version :** `{telever}` \n\n"
   TEXT += f"🔰 **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"🔰 **Pyrogram Version :** `{pyrover}` \n\n"
-  TEXT += "**Makasih Yaa Djancok!! dah Mau Pake Gua Disini 🙏**"
+  TEXT += "**Makasih yaa!! Sudah Mau Pakai Erna X Bagaskara Disini 🙏**"
   BUTTON = [
         [
             Button.url("ʜᴇʟᴘ​", "https://t.me/loveisfuckedup"),
