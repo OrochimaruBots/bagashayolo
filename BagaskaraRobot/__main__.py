@@ -83,8 +83,8 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 ────────────────────────
-🔥 I'm an wibu theme bot designed to help manage and playing music your telegram group with a lot features.
-🔥 Maintained by [ʙᴧɢᴧsҡᴧʀᴧ](https://t.me/ybgskr_ex)
+🔥 I'm an Bucin theme bot designed to help manage and playing music your telegram group with a lot features.
+🔥 Maintained by [ᴇʀɴᴧ̷](https://t.me/Ernaxz)
 ────────────────────────
 Hit the /help to see available command.
 """
@@ -110,7 +110,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➗ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", 
-            url="t.me/oneupdirty_bot?startgroup=new"
+            url="t.me/ernastream_bot?startgroup=new"
         ),
     ],
 ]
@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Erna X Bagaskara robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm Erna ❤ Bagaskara robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -373,7 +373,7 @@ def Skyzu_about_callback(update, context):
     query = update.callback_query
     if query.data == "Skyzu_":
         query.message.edit_text(
-            text="๏ I'm *Erna X Bagaskara Robot*, a wibu group management robot and Music player built to help you manage and playing music in your group easily."
+            text="๏ I'm *Erna ❤ Bagaskara Robot*, a wibu group management robot and Music player built to help you manage and playing music in your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -433,7 +433,7 @@ def Skyzu_about_callback(update, context):
     elif query.data == "Skyzu_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Erna X Bagaskara Robot now ready to manage your group."
+            "\nCongragulations, Erna ❤ Bagaskara Robot now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -460,8 +460,8 @@ def Skyzu_about_callback(update, context):
         )
     elif query.data == "Skyzu_support":
         query.message.edit_text(
-            text="*๏ Erna X Bagaskara support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Erna X Bagaskara Robot.",
+            text="*๏ Erna ❤ Bagaskara support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Erna ❤ Bagaskara Robot.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -479,14 +479,14 @@ def Skyzu_about_callback(update, context):
 
     elif query.data == "Skyzu_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credit for Erna X Bagaskara Robot</b>\n"
+            text=f"<b>๏ Credit for Erna ❤ Bagaskara Robot</b>\n"
             f"\nHere Developers Making The Erna X Bagaskara Robot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
                     InlineKeyboardButton(text="ʙᴀɢᴀsᴋᴀʀᴀ", url="t.me/ybgskr"),
-                    InlineKeyboardButton(text="ʏʙɢsᴋʀ", url="t.me/ybgskr12"),
+                    InlineKeyboardButton(text="ᴇʀɴᴧ̷", url="t.me/Ernaxz"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
@@ -502,7 +502,7 @@ def Source_about_callback(update, context):
         query.message.edit_text(
             text="๏›› This advance command for Musicplayer."
             "\n\n๏ Command for admins only."
-            "\n • `/reload` - For refreshing the adminlist."
+            "\n • `/mreload` - For refreshing the adminlist."
             "\n • `/pause` - To pause the playback."
             "\n • `/resume` - To resuming the playback You've paused."
             "\n • `/skip` - To skipping the player."
@@ -807,7 +807,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Erna X Bagaskara Robot Started!**
+                f"""**Erna ❤ Bagaskara Robot Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
