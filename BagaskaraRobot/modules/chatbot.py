@@ -54,7 +54,7 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "Bagaskara Chatbot Di Matiin Djancok!! Sama {}.".format(
+                "Erna X Bagaskara Chatbot Di Matiin Djancok!! Sama {}.".format(
                     mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
@@ -82,7 +82,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "Bagaskara Chatbot Dah Aktif Ya Djancok by {}.".format(
+                "Erna X Bagaskara Chatbot Dah Aktif Ya Djancok by {}.".format(
                     mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
