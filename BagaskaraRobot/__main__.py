@@ -118,7 +118,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/63267910585608a6302b0.jpg"
+EMI_IMG = "https://telegra.ph/file/a589fe0ca2b883b7a3dc3.jpg"
 
 DONATE_STRING = """Hey, glad to hear you want to donate!
  You can support the project by contacting @ybgskr_ex \
