@@ -316,7 +316,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1829047705:
-         text += "\n\nOwner Of A Bot. Queen Of @skyzu. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOwner Of A Bot. Queen Of @ybgskr. Bot Name Inspired From 'Bagaskara'."
          disaster_level_present = True
 
     try:
@@ -353,9 +353,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ProjectSkyzu"),
+                                "Health", url="https://t.me/allfucek"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ProjectSkyzu")
+                                "Disaster", url="https://t.me/loveisfuckedup")
                         ],
                     ]
                 ),
@@ -371,9 +371,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ProjectSkyzu"),
+                                "Health", url="https://t.me/allfucek"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ProjectSkyzu")
+                                "Disaster", url="https://t.me/loveisfuckedup")
                         ],
                     ]
                 ),
@@ -445,7 +445,7 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "❂ <b>Stats For <a href='https://t.me/oneupdirty_bot'>Bagaskara Robot</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "❂ <b>Stats For <a href='https://t.me/ernastream_bot'>Erna X Bagaskara Robot</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(
         result,
@@ -566,9 +566,6 @@ Examples:
 When marked as AFK, any mentions will be replied to with a message stating that you're not available!
 ❂ /afk <reason>*:* Mark yourself as AFK.
   - brb <reason>: Same as the afk command, but not a command. 
-  
-*What is that health thingy?*
- Come and see [HP System explained](https://t.me/KennedyProject/44)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio, run_async=True)
