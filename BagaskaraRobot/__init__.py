@@ -46,7 +46,7 @@ if ENV:
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
-    JOIN_LOGGER = os.environ.get("JOIN_LOGGER", None)
+    JOIN_LOGGER = os.environ.get("JOIN_LOGGER", "https://t.me/allfucek")
     OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
 
     try:
@@ -204,13 +204,13 @@ else:
 DRAGONS.add(OWNER_ID)
 DRAGONS.add(1820233416)
 DRAGONS.add(2001537177)
-DRAGONS.add(5031104268)
-DRAGONS.add(1963422158)
-DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(2039558422)
-DEV_USERS.add(5372076947)
+DRAGONS.add(OWNER_ID)
+DRAGONS.add(OWNER_ID)
+DEV_USERS.add(2131096907)
 DEV_USERS.add(1820233416)
-DEV_USERS.add(1784606556)
+DEV_USERS.add(OWNER_ID)
+DEV_USERS.add(OWNER_ID)
+DEV_USERS.add(OWNER_ID)
 
 if not SPAMWATCH_API:
     sw = None
