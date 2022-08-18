@@ -27,9 +27,9 @@ async def carbon_func(_, message):
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_text(
-        f"""✨ **Hey I'm Erna X Bagaskara Robot** 
+        f"""✨ **Hey I'm Rey X Music Robot** 
 
-**Owner Robot : [Erna X Bagaskara](https://t.me/ybgskr)**
+**Owner Robot : [ʀᴇʏ](https://t.me/Rey_ab14)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
@@ -41,7 +41,7 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/loveisfuckedup"), 
+                        "Channel", url="https://t.me/just_rey14"), 
                     InlineKeyboardButton(
                         "Support", url="https://t.me/allfucek")
                 ]
