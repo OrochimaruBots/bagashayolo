@@ -113,7 +113,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Erna X Bagaskara](https://t.me/ernastream_bot)",
+            caption="Logo by [ʀᴇʏ ✘ ᴍᴜꜱɪᴄ](https://t.me/Rey_ab14musicbot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Erna X Bagaskara](https://t.me/ernastream_bot)",
+            caption="Logo by [ʀᴇʏ ✘ ᴍᴜꜱɪᴄ](https://t.me/Rey_ab14musicbot)",
             force_document=False,
         )
         os.remove(flnme)
