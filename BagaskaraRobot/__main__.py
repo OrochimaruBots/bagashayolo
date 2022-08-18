@@ -83,8 +83,8 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 ────────────────────────
-🔥 I'm an Bucin theme bot designed to help manage and playing music your telegram group with a lot features.
-🔥 Maintained by [ᴇʀɴᴧ̷](https://t.me/Ernaxz)
+🔥 I'm an Manager X Music bot designed to help manage and playing music your telegram group with a lot features.
+🔥 Maintained by [ʀᴇʏ](https://t.me/Rey_ab14)
 ────────────────────────
 Hit the /help to see available command.
 """
@@ -101,7 +101,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴅᴏɴᴀᴛɪᴏɴ ❤️", url="https://t.me/ybgskr"
+            text="ᴅᴏɴᴀᴛɪᴏɴ ❤️", url="https://t.me/Rey_ab14"
         ),
         InlineKeyboardButton(
             text="sᴜᴘᴘᴏʀᴛ​ 🇮🇩", url=f"https://t.me/{SUPPORT_CHAT}"
@@ -110,7 +110,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➗ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➗", 
-            url="t.me/ernastream_bot?startgroup=new"
+            url="t.me/Rey_ab14musicbot?startgroup=new"
         ),
     ],
 ]
@@ -118,12 +118,12 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/a589fe0ca2b883b7a3dc3.jpg"
+EMI_IMG = "https://telegra.ph/file/d8530063bb68cca946cd8.jpg"
 
 DONATE_STRING = """Hey, glad to hear you want to donate!
- You can support the project by contacting @ybgskr_ex \
+ You can support the project by contacting @Rey_ab14 \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us developer the Erna X Bagaskara Robot at ."""
+ Those who cannot provide monetary support are welcome to help us developer the Rey X Music Robot at ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Erna ❤ Bagaskara robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm Rey X Music robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -373,15 +373,15 @@ def Skyzu_about_callback(update, context):
     query = update.callback_query
     if query.data == "Skyzu_":
         query.message.edit_text(
-            text="๏ I'm *Erna ❤ Bagaskara Robot*, a wibu group management robot and Music player built to help you manage and playing music in your group easily."
+            text="๏ I'm *Rey X Music Robot*, a powerfull group management robot and Music player built to help you manage and playing music in your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Erna X Bagaskara's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for Erna X Bagaskara Robot.",
+            "\n\n_Rey X Music Robot's licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for Rey X Music Robot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -433,7 +433,7 @@ def Skyzu_about_callback(update, context):
     elif query.data == "Skyzu_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Erna ❤ Bagaskara Robot now ready to manage your group."
+            "\nCongragulations, Rey X Music Robot now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -460,13 +460,13 @@ def Skyzu_about_callback(update, context):
         )
     elif query.data == "Skyzu_support":
         query.message.edit_text(
-            text="*๏ Erna ❤ Bagaskara support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Erna ❤ Bagaskara Robot.",
+            text="*๏ Rey X Music Robot support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Rey X Music Robot.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="t.me/allfucek"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="t.me/just_rey14"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
@@ -479,14 +479,14 @@ def Skyzu_about_callback(update, context):
 
     elif query.data == "Skyzu_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credit for Erna ❤ Bagaskara Robot</b>\n"
-            f"\nHere Developers Making The Erna X Bagaskara Robot",
+            text=f"<b>๏ Credit for Rey X Music Robot</b>\n"
+            f"\nHere Developers Making The Rey X Music Robot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
                     InlineKeyboardButton(text="ʙᴀɢᴀsᴋᴀʀᴀ", url="t.me/ybgskr"),
-                    InlineKeyboardButton(text="ᴇʀɴᴧ̷", url="t.me/Ernaxz"),
+                    InlineKeyboardButton(text="ʀᴇʏ", url="t.me/Rey_ab14"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
@@ -502,7 +502,7 @@ def Source_about_callback(update, context):
         query.message.edit_text(
             text="๏›› This advance command for Musicplayer."
             "\n\n๏ Command for admins only."
-            "\n • `/mreload` - For refreshing the adminlist."
+            "\n • `/reload` - For refreshing the adminlist."
             "\n • `/pause` - To pause the playback."
             "\n • `/resume` - To resuming the playback You've paused."
             "\n • `/skip` - To skipping the player."
@@ -807,7 +807,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Erna ❤ Bagaskara Robot Started!**
+                f"""**Rey X Music Robot Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
